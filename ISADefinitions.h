@@ -1,4 +1,4 @@
-#if !defined (_ISA_DEFINITIONS_H_)
+ï»¿#if !defined (_ISA_DEFINITIONS_H_)
 #define _ISA_DEFINITIONS_H_
 
 // diody LED
@@ -13,10 +13,10 @@
 
 const static int LEDS[] = {LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8};
 
-// brzêczyk
+// brzÄ™czyk
 #define BUZZER		24
 
-// klawisze - strza³ki
+// klawisze - strzaÅ‚ki
 #define KEY_UP		47
 #define KEY_DOWN	49
 #define KEY_LEFT	48
@@ -33,7 +33,7 @@ const static int KEY_ARROWS[] = {KEY_UP, KEY_DOWN, KEY_LEFT, KEY_RIGHT};
 #define JOY2X		A1
 #define JOY2Y		A0
 
-// serwonapêdy - wyjœcia PWM
+// serwonapÄ™dy - wyjÅ›cia PWM
 #define SERVO1		10
 #define SERVO2		11
 #define SERVO3		12
@@ -41,29 +41,29 @@ const static int KEY_ARROWS[] = {KEY_UP, KEY_DOWN, KEY_LEFT, KEY_RIGHT};
 
 const static int SERVOS[] = {SERVO1, SERVO2, SERVO3, SERVO4};
 
-// ultradŸwiêkowy czujnik odleg³oœci
+// ultradÅºwiÄ™kowy czujnik odlegÅ‚Å›ci
 #define USOUND_PING	45
 #define USOUND_ECHO	44
 
-// prze³¹czniki typu DIP-switch
+// przeÅ‚Ä…czniki typu DIP-switch
 #define SWITCH1		50
 #define SWITCH2		51
-#define SWITCH2		52
-#define SWITCH3		53
+#define SWITCH3		52
+#define SWITCH4		53
 
 const static int SWITCHES[] = {SWITCH1, SWITCH2, SWITCH3, SWITCH4};
 
-// wyjœcie analogowe do wzmacniacza audio
+// wyjÅ“cie analogowe do wzmacniacza audio
 #define SOUND		0
 
-// wyœwietlacz OLED (128x64), wymaga sprzêtowego kontrolera SPI
+// wyÅ›wietlacz OLED (128x64), wymaga sprzÄ™towego kontrolera SPI
 #define OLED_CS		22
 #define OLED_DC		25
 
-// wyœwietlacz matrycowy LED 8x8, wymaga sprzêtowego kontrolera SPI
+// wyÅ›wietlacz matrycowy LED 8x8, wymaga sprzÄ™towego kontrolera SPI
 #define LED88_CS	43
 
-// wyœwietlacz alfanumeryczny LCD 16x2
+// wyÅ›wietlacz alfanumeryczny LCD 16x2
 #define LCD_RS		26
 #define LCD_RW		error
 #define LCD_E		28
@@ -74,7 +74,7 @@ const static int SWITCHES[] = {SWITCH1, SWITCH2, SWITCH3, SWITCH4};
 
 const static int LCD_DATA[] = {LCD_D4, LCD_D5, LCD_D6, LCD_D7};
 
-// wyœwietlacz siedmiosegmentowy LED
+// wyÅ›wietlacz siedmiosegmentowy LED
 #define SSEG_STR1	33
 #define SSEG_STR2	34
 #define SSEG_STR3	35
